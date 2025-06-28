@@ -1,5 +1,7 @@
 import './App.css'
+import HeroSection from './Component/Herosection/HeroSection'
 import Navbar from './Component/NavBar/Navbar'
+import Container from './Component/SharedComponent/Container'
 import ThemeToggle from './Component/SharedComponent/ThemeToggle'
 
 function App() {
@@ -7,13 +9,21 @@ function App() {
 
   return (
     <>
-    <div className='bg-base-200 shadow-md'>
-      <Navbar/>
-    </div>
-    
+      <div className='bg-base-200 sticky z-40 top-0 dim:border-b-1 dim:border-primary dim:shadow-primary dim:shadow-sm shadow-md'>
+        <Navbar />
+      </div>
 
-      <h1>hi this is shohel</h1>
-      <p>hi this is shohel</p>
+      <div id='hero' className='my-2'>
+        <Container>
+          <HeroSection></HeroSection>
+        </Container>
+      </div>
+
+      <div id='about'>
+        <Container>
+
+        </Container>
+      </div>
     </>
   )
 }

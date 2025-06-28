@@ -13,7 +13,7 @@ const ThemeToggle = () => {
   }, [theme]);
 
   const handleToggle = () => {
-    setTheme(prev => (prev === 'light' ? 'dark' : 'light'));
+    setTheme(prev => (prev === 'light' ? 'dim' : 'light'));
   };
 
   return (

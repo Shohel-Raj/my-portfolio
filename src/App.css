@@ -3,7 +3,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+@custom-variant dim (&:where([data-theme=dim], [data-theme=dim] *));
 
 /* 
 Use Primary for main interactive elements (buttons, nav links).
