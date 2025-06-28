@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import ProfileWithDecor from "./Profile";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaSquareFacebook } from "react-icons/fa6";
 
 const HeroSection = () => {
 
@@ -41,32 +43,43 @@ const HeroSection = () => {
                 <motion.div
                     className="space-y-6 text-center md:text-left"
                     initial={{ opacity: 0, x: -50 }}
-                    animate={{ opacity: 1, x: 0 }}
+                    whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 1 }}
                 >
                     <h1 className="text-4xl lg:text-5xl font-extrabold leading-tight">
                         Hi, I'm <span className="text-primary">Sohel</span>
                     </h1>
                     <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-                        I'm a <span className="font-semibold text-black dark:text-white">Full-Stack MERN Developer</span> with a strong passion for building modern, responsive, and scalable web applications. I specialize in <br /> the{' '}
+                        I'm a <span className="font-semibold text-black dim:text-white">Full-Stack MERN Developer</span> with a strong passion for building modern, responsive, and scalable web applications. I specialize in <br /> the{' '}
                         <span className="text-primary font-semibold">
                             {displayedText}
                             <span className="animate-pulse">|</span>
                         </span>
                     </p>
-                    <divz className="flex flex-col md:flex-row items-center justify-center md:justify-start gap-4">
+                    <div >
+                        <div className="flex justify-center md:justify-start gap-2 mb-2">
+                            <button onClick={()=>window.open("https://github.com/Shohel-Raj",'_blank')} className="px-2 py-2 text-lg cursor-pointer font-semibold border border-primary text-primary rounded-xl hover:bg-primary hover:text-white transition duration-300">
+                                <FaGithub />
+                            </button>
+                            <button onClick={()=>window.open("https://linkedin.com/in/mohammedshohel87",'_blank')} className="px-2 py-2 text-lg cursor-pointer font-semibold border border-primary text-primary rounded-xl hover:bg-primary hover:text-white transition duration-300">
+                                <FaLinkedin />
+                            </button>
+                            <button onClick={()=>window.open("https://facebook.com/mohammedshohel.bd",'_blank')} className="px-2 py-2 text-lg cursor-pointer font-semibold border border-primary text-primary rounded-xl hover:bg-primary hover:text-white transition duration-300">
+                                <FaSquareFacebook />
+                            </button>
+                        </div>
 
-                        <button className="px-6 py-2 text-lg cursor-pointer font-semibold border border-primary text-primary rounded-xl hover:bg-primary hover:text-white transition duration-300">
+                        <button onClick={()=>window.open('https://docs.google.com/document/d/e/2PACX-1vRWvzGQDBzxiL0b4RmnJYrjqHCSDYK-6Rnwytf5NQzGSjBePqC3WCwir1KTCbD1RLAY0cmZQfSJfYiG/pub')} className="px-6 py-2 text-lg cursor-pointer font-semibold border border-primary text-primary rounded-xl hover:bg-primary hover:text-white transition duration-300">
                             Resume
                         </button>
-                    </divz>
+                    </div>
                 </motion.div>
 
                 {/* Right: Image */}
                 <motion.div
                     className="flex justify-center"
                     initial={{ opacity: 0, x: 50 }}
-                    animate={{ opacity: 1, x: 0 }}
+                    whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 1 }}
                 >
                     <ProfileWithDecor></ProfileWithDecor>

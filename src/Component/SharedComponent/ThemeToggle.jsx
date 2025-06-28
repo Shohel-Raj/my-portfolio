@@ -32,7 +32,7 @@ const ThemeToggle = () => {
             transition={{ duration: 0.4 }}
             className="absolute"
           >
-            <FiMoon className="w-8 h-8 text-gray-600" />
+            <FiMoon className="w-8 h-8 text-white" />
           </motion.span>
         ) : (
           <motion.span
@@ -43,7 +43,7 @@ const ThemeToggle = () => {
             transition={{ duration: 0.4 }}
             className="absolute"
           >
-            <FiSun className="w-8 h-8 text-yellow-400" />
+            <FiSun className="w-8 h-8 text-white" />
           </motion.span>
         )}
       </AnimatePresence>

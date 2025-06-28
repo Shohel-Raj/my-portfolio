@@ -22,7 +22,7 @@ const Navbar = () => {
     const navItems = [
         { label: 'Home', hash: '#hero' },
         { label: 'About', hash: '#about' },
-        { label: 'Services', hash: '#services' },
+        { label: 'Skills', hash: '#skills' },
         { label: 'Contact', hash: '#contact' },
     ];
 
@@ -58,7 +58,7 @@ const Navbar = () => {
                 {/* Right Controls */}
                 <div className="navbar-end gap-2">
                     <ThemeToggle />
-                    <a className="btn bg-primary hover:bg-secondary rounded-4xl hidden md:flex">
+                    <a className="btn bg-primary hover:bg-secondary text-white rounded-4xl hidden md:flex">
                         Contact Now
                     </a>
 
@@ -66,7 +66,7 @@ const Navbar = () => {
                     <div className="lg:hidden">
                         <button
                             onClick={toggleMenu}
-                            className="btn btn-ghost"
+                            className="btn btn-gost"
                             aria-label="Toggle Menu"
                         >
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">

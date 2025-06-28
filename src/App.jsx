@@ -1,4 +1,5 @@
 import './App.css'
+import AboutMe from './Component/About Me/AboutMe'
 import HeroSection from './Component/Herosection/HeroSection'
 import Navbar from './Component/NavBar/Navbar'
 import Container from './Component/SharedComponent/Container'
@@ -21,7 +22,7 @@ function App() {
 
       <div id='about'>
         <Container>
-
+          <AboutMe></AboutMe>
         </Container>
       </div>
     </>
