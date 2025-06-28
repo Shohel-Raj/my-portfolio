@@ -62,7 +62,7 @@ const AboutMe = () => {
                         </p>
 
                         <p className="text-gray-700 dim:text-gray-300 mb-6 text-lg">
-                            Outside of tech, I enjoy football, sketching, and music—it keeps me balanced and inspired. Always learning, always building!
+                            Outside of tech, I enjoy football, movie, and music—it keeps me balanced and inspired. Always learning, always building!
                         </p>
 
                         <div className="flex flex-wrap gap-4">

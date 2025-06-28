@@ -4,6 +4,7 @@ import HeroSection from './Component/Herosection/HeroSection'
 import Navbar from './Component/NavBar/Navbar'
 import Container from './Component/SharedComponent/Container'
 import ThemeToggle from './Component/SharedComponent/ThemeToggle'
+import SkillsSection from './Component/Skils Section/skillCategories'
 
 function App() {
 
@@ -23,6 +24,11 @@ function App() {
       <div id='about'>
         <Container>
           <AboutMe></AboutMe>
+        </Container>
+      </div>
+      <div id='skills'>
+        <Container>
+          <SkillsSection></SkillsSection>
         </Container>
       </div>
     </>
