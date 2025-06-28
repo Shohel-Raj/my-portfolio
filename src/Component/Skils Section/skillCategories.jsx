@@ -40,9 +40,9 @@ const shuffleArray = (array) => {
 };
 
 const SkillCard = ({ skill }) => (
-  <div className="min-w-[140px] bg-gray-100 dark:bg-gray-800 rounded-xl p-4 shadow flex flex-col items-center mx-4 hover:scale-105 transition-transform">
+  <div className="min-w-[140px] bg-gray-100 dim:bg-gray-800 rounded-xl p-4 shadow flex flex-col items-center mx-4 hover:scale-105 transition-transform">
     <div className={`text-3xl mb-2 ${skill.color}`}>{skill.icon}</div>
-    <p className="text-sm font-medium text-gray-800 dark:text-white">{skill.label}</p>
+    <p className="text-sm font-medium text-gray-800 dim:text-white">{skill.label}</p>
   </div>
 );
 
@@ -53,10 +53,10 @@ const SkillsMarquee = () => {
   const row3 = shuffleArray(skills);
 
   return (
-    <section className="py-16 bg-white dark:bg-gray-900">
-      <div className="max-w-6xl mx-auto px-4">
+    <section className="py-16 ">
+      <div >
         <div className="text-center mb-12 relative">
-          <h2 className="text-4xl font-bold text-gray-900 dark:text-white inline-block relative">
+          <h2 className="text-4xl font-bold text-gray-900 dim:text-white inline-block relative">
             Skills
             <motion.div
               className="absolute left-[20px] bottom-0 h-1 bg-blue-500 rounded-full"

@@ -13,7 +13,9 @@ Use Secondary for hover effects, secondary buttons, or highlights.
 Use Accent sparingly for calls-to-action or special highlights.
 */
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 h1,h2,h3,h4,h5,h6,ul{
   font-family: "Poppins", sans-serif;

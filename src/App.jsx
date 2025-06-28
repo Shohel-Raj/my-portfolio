@@ -1,5 +1,7 @@
 import './App.css'
 import AboutMe from './Component/About Me/AboutMe'
+import ContactInfo from './Component/Contact/ContactInfo'
+import Footer from './Component/Footer/Footer'
 import HeroSection from './Component/Herosection/HeroSection'
 import Navbar from './Component/NavBar/Navbar'
 import Container from './Component/SharedComponent/Container'
@@ -30,6 +32,15 @@ function App() {
         <Container>
           <SkillsSection></SkillsSection>
         </Container>
+      </div>
+      <div id='contact'>
+        <Container>
+            <ContactInfo></ContactInfo>
+        </Container>
+      </div>
+
+      <div>
+        <Footer></Footer>
       </div>
     </>
   )
