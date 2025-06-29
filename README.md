@@ -1,12 +1,131 @@
-# React + Vite
+# 💼 Mohammed Shohel RaJ - Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the source code for my personal **developer portfolio website** — built with modern frontend technologies to showcase my projects, skills, and contact information.
 
-Currently, two official plugins are available:
+---
+## 🙋‍♂️ About Me
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I'm a passionate **MERN Stack Developer** who loves building user-focused applications with clean design and powerful functionality.
 
-## Expanding the ESLint configuration
+### 👨‍💻 Tech Skills:
+- MongoDB, Express.js, React.js, Node.js (MERN Stack)
+- Tailwind CSS, DaisyUI
+- Framer Motion, React Router, EmailJS
+- Git, GitHub, Figma
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🧠 What I Enjoy:
+- Crafting beautiful and performant UIs
+- Solving real-world problems with code
+- Learning new technologies and tools
+
+### 🌐 Connect With Me:
+- Portfolio: [mohammed-sohel-dev.netlify.app](https://mohammed-sohel-dev.netlify.app/)
+- GitHub: [YourGitHubUsername](https://github.com/Shohel-Raj)
+- LinkedIn: [YourLinkedInProfile](https://www.linkedin.com/in/mohammedshohel87)
+
+
+## 🚀 Live Demo
+
+🔗 [Visit Portfolio Website](https://mohammed-sohel-dev.netlify.app/)
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ **React 19** – Frontend library
+- 🎨 **Tailwind CSS** – Utility-first CSS framework
+- 🌼 **DaisyUI** – Beautiful component library for Tailwind
+- 🎞️ **Framer Motion** – Animations and transitions
+- 🧭 **React Router v7** – Routing and navigation
+- 📩 **EmailJS** – Contact form email integration
+- 🏃‍♂️ **React Fast Marquee** – Scrolling marquee text
+- 🔔 **React Hot Toast** – Elegant toast notifications
+- 🎨 **React Icons** – Icon set
+
+---
+## 🔥 Features
+
+- Modern responsive layout
+- Animated hero and transitions using Framer Motion
+- Project showcase with detail pages
+- Smooth navigation and hash linking
+- Contact form with toast notifications
+- Marquee for skill scrolling
+- Theme-ready design (optional dark mode ready)
+- Deployed on Netlify
+
+---
+
+## 📸 Screenshots
+
+> _(Add screenshots here if available)_  
+> Example:
+
+![Homepage Screenshot](./src/assets/portfolio-site.gif)
+![Projects Page Screenshot](public/screenshot-projects.png)
+![Contact Form Screenshot](public/screenshot-contact.png)
+
+
+
+---
+
+## 📦 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/my-portfolio.git
+cd my-portfolio
+
+
+### 📦 Install Dependencies
+
+Make sure you have Node.js and npm installed.
+
+```bash
+npm install
+
+
+
+---
+
+### ▶️ **Run the Development Server**
+
+```markdown
+### ▶️ Run the Development Server
+
+Start the development server:
+
+```bash
+npm run dev
+
+
+
+---
+
+### ✉️ **Contact Form Setup**
+
+```markdown
+### ✉️ Contact Form Setup
+
+The contact form uses **EmailJS** to send emails directly from the frontend.
+
+To configure it:
+
+1. Go to [https://emailjs.com](https://emailjs.com) and sign up.
+2. Create an email service and a template.
+3. Copy your:
+   - **Service ID**
+   - **Template ID**
+   - **Public Key** (User ID)
+
+4. In your code, configure EmailJS like this:
+
+```js
+emailjs.sendForm(
+  'YOUR_SERVICE_ID',
+  'YOUR_TEMPLATE_ID',
+  form.current,
+  'YOUR_PUBLIC_KEY'
+)
+
