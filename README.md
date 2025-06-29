@@ -20,8 +20,8 @@ I'm a passionate **MERN Stack Developer** who loves building user-focused applic
 
 ### 🌐 Connect With Me:
 - Portfolio: [mohammed-sohel-dev.netlify.app](https://mohammed-sohel-dev.netlify.app/)
-- GitHub: [YourGitHubUsername](https://github.com/Shohel-Raj)
-- LinkedIn: [YourLinkedInProfile](https://www.linkedin.com/in/mohammedshohel87)
+- GitHub: [Shohel Raj](https://github.com/Shohel-Raj)
+- LinkedIn: [Mohammed Sohel](https://www.linkedin.com/in/mohammedshohel87)
 
 
 ## 🚀 Live Demo
@@ -58,12 +58,9 @@ I'm a passionate **MERN Stack Developer** who loves building user-focused applic
 
 ## 📸 Screenshots
 
-> _(Add screenshots here if available)_  
-> Example:
 
 ![Homepage Screenshot](./src/assets/portfolio-site.gif)
-![Projects Page Screenshot](public/screenshot-projects.png)
-![Contact Form Screenshot](public/screenshot-contact.png)
+
 
 
 
