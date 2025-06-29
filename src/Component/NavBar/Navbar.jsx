@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { HashLink } from 'react-router-hash-link';
-import { useLocation } from 'react-router-dom'; // Make sure you're using react-router-dom
+import { useLocation } from 'react-router-dom';
 import Container from '../SharedComponent/Container';
 import ThemeToggle from '../SharedComponent/ThemeToggle';
 import MyLogo from '../SharedComponent/MyLogo';
@@ -14,7 +14,6 @@ const Navbar = () => {
     const closeMenu = () => setIsOpen(false);
 
     const isActive = (hash) => {
-        // Home is active when there's no hash
         if (!location.hash && hash === '#hero') return true;
         return location.hash === hash;
     };
@@ -23,6 +22,7 @@ const Navbar = () => {
         { label: 'Home', hash: '#hero' },
         { label: 'About', hash: '#about' },
         { label: 'Skills', hash: '#skills' },
+        { label: 'Project', hash: '#projects' },
         { label: 'Contact', hash: '#contact' },
     ];
 
@@ -58,15 +58,21 @@ const Navbar = () => {
                 {/* Right Controls */}
                 <div className="navbar-end gap-2">
                     <ThemeToggle />
-                    <a className="btn bg-primary hover:bg-secondary text-white rounded-4xl hidden md:flex">
+                    {/* Desktop Contact Now with smooth scroll */}
+                    <HashLink
+                        to="/#contact"
+                        smooth
+                        className="btn bg-primary hover:bg-secondary text-white rounded-4xl hidden md:flex"
+                        onClick={closeMenu}
+                    >
                         Contact Now
-                    </a>
+                    </HashLink>
 
                     {/* Mobile Menu Button */}
                     <div className="lg:hidden">
                         <button
                             onClick={toggleMenu}
-                            className="btn btn-gost"
+                            className="btn btn-ghost"
                             aria-label="Toggle Menu"
                         >
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -96,9 +102,15 @@ const Navbar = () => {
                             <ul className="menu text-lg font-semibold text-center">
                                 {navLinks}
                             </ul>
-                            <a className="btn bg-primary hover:bg-secondary w-40" onClick={closeMenu}>
+                            {/* Mobile Contact Now with smooth scroll */}
+                            <HashLink
+                                to="/#contact"
+                                smooth
+                                className="btn bg-primary hover:bg-secondary w-40"
+                                onClick={closeMenu}
+                            >
                                 Contact Now
-                            </a>
+                            </HashLink>
                         </motion.div>
                     )}
                 </AnimatePresence>

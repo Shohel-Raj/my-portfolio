@@ -3,16 +3,16 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import { HashRouter, RouterProvider } from 'react-router'
-// import { router } from './Router/Router.jsx'
+import { router } from './Router/Router.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <HashRouter>
+    {/* <HashRouter>
       <App />
-    </HashRouter>
-    {/* <RouterProvider router={router}>
+    </HashRouter> */}
+    <RouterProvider router={router}>
       <App />
-    </RouterProvider> */}
+    </RouterProvider>
     
   </StrictMode>,
 )

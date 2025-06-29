@@ -1,0 +1,35 @@
+[
+  {
+    "id": "plant-care",
+    "name": "Plant Care",
+    "img": "https://i.postimg.cc/NGKc0HJY/planare.png",
+    "description": "Plant Care is a modern React app that helps users manage their personal gardens by tracking plant data, reminders, and watering schedules.",
+    "tech": "React 19, Tailwind CSS, DaisyUI, Firebase, MongoDB Atlas, Recharts, Lottie, SwiperJS, AOS, Toastify, SweetAlert2, React Router v7",
+    "challenges": "Integrating protected routes, managing animation performance, and syncing Firebase Auth with MongoDB data.",
+    "future": "Add weather API integration, voice-based controls, and offline PWA support.",
+    "live": "https://plant-care-tracker-4cf37.web.app/",
+    "github": "https://github.com/Shohel-Raj/plant-care-clint-side"
+  },
+  {
+    "id": "bookshelf",
+    "name": "Bookshelf",
+    "img": "https://i.postimg.cc/vH9wrdwN/bookshelf.png",
+    "description": "Bookshelf is a dynamic React web app for managing, reviewing, and organizing personal book collections with interactive charts and social features.",
+    "tech": "React, Tailwind CSS, DaisyUI, Firebase, Express, MongoDB, Recharts, AOS, Lottie, SweetAlert2, Toastify",
+    "challenges": "Complex CRUD interactions, syncing user data across routes, and managing filtering logic for large book lists.",
+    "future": "Add user badges,  and better review analytics with search features.",
+    "live": "https://book-shelf-7d010.web.app/",
+    "github": "https://github.com/Shohel-Raj/BookShelf-Clint-side"
+  },
+  {
+    "id": "the-coxs",
+    "name": "The Cox's",
+    "img": "https://i.postimg.cc/KcCy38wT/thecox.png",
+    "description": "THE COX is an event booking and management platform allowing users to explore, filter, and book events with engaging animation and secure auth.",
+    "tech": "React, Tailwind CSS, DaisyUI, Firebase, SwiperJS, AOS, React Fast Marquee, Toastify, Helmet Async, React Icons",
+    "challenges": "Smooth booking flow with authentication, responsive slider integration, and user engagement tracking.",
+    "future": "Implement real-time booking updates, multi-role admin dashboard, and Stripe payment support.",
+    "live": "https://incomparable-pothos-ce35c8.netlify.app/",
+    "github": "https://github.com/Shohel-Raj/the-cox"
+  }
+]

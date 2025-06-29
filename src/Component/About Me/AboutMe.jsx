@@ -80,8 +80,8 @@ const AboutMe = () => {
 };
 
 const SkillIcon = ({ icon, label, color }) => (
-    <span className={`px-4 py-2 bg-gray-100 dark:bg-gray-800 text-sm rounded-full flex items-center gap-2 ${color}`}>
-        {icon} <span className="text-gray-800 dark:text-gray-200">{label}</span>
+    <span className={`px-4 py-2 bg-gray-100 dim:bg-gray-800 text-sm rounded-full flex items-center gap-2 ${color}`}>
+        {icon} <span className="text-gray-800 dim:text-gray-200">{label}</span>
     </span>
 );
 

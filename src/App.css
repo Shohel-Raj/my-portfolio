@@ -36,7 +36,7 @@ body{
   --color-accent: #FBBF24;
 }
 @plugin "daisyui/theme" {
-  name: "dark";
+  name: "dim";
   default: true;
   --color-primary: #3B82F6;
   --color-secondary: #D946EF;

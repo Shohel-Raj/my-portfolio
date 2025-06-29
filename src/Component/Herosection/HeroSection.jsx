@@ -49,7 +49,7 @@ const HeroSection = () => {
                     <h1 className="text-4xl lg:text-5xl font-extrabold leading-tight">
                         Hi, I'm <span className="text-primary">Sohel</span>
                     </h1>
-                    <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
+                    <p className="text-lg text-gray-600 dim:text-gray-300 leading-relaxed">
                         I'm a <span className="font-semibold text-black dim:text-white">Full-Stack MERN Developer</span> with a strong passion for building modern, responsive, and scalable web applications. I specialize in <br /> the{' '}
                         <span className="text-primary font-semibold">
                             {displayedText}
